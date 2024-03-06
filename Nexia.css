@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    font-size: 20px;
+}
+
+
+
+                                                       /* start header */
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    
+}
+
+.tt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+
+}
+.logo img {
+    width: 170px;
+    height: 170px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin-top: -6px;
+}
+
+header .links {
+    width : fit-content ;
+    height: 100%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .links .top{
+    width: fit-content;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-end; */
+    padding-top: 10px;
+
+}
+
+.links .top span {
+    font-size: 15px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.links .top span:hover {
+    color: #4eaf8e;
+}
+
+.links .top img {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.links p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    color : whitesmoke ;
+    background-color: purple;
+    border-radius: 0px 20px 0 20px;
+    margin-left: 30px;
+    padding: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+.links p:hover {
+    background-color: rgb(190, 60, 190);
+    transform: scale(1.1);
+}
+.links .top input {
+    height: 20px;
+    border-radius:  20px;
+    border: solid 0.5px ;
+    text-align: center;
+    
+}
+.links .top input:focus {
+    outline-color: rgb(17, 218, 218) ;
+}
+
+.links .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-right: 20px; */
+    padding-left: 30px;
+    padding-top: 6px;
+
+}
+
+.links .bottom a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4eaf8e;
+    font-size: 30px;
+    padding-left: 20px;
+    position: relative;
+
+
+}
+.links .bottom a:hover {
+    color: purple;
+}
+
+
+
+  /*                                                    start           container                      */
+
+
+
+  /*                                                    end           container                      */
+
+
+
+  /*                                                    start           section-1                     */
+
+
+.section-1 {
+    width: 100%;
+    height: 80vh;
+}
+.section-1 .all {
+    width: 100%;
+    height: 100%;
+    background-image: url(./resizer.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.section-1 .all h1{
+ width: fit-content;
+ height: 40px;
+ font-size: 40px;
+ font-weight: 600;
+ color: #0d5257;
+ padding-top: 50px;
+ padding-left: 20px;
+ position: relative;
+}
+.section-1 .all p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 40px;
+    color: #0d5257;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.section-1 .all .p-2 {
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    color: #0d5257;
+    padding-top: 50px; 
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-1 .all .p-2::after 
+{
+    content: " ";
+    position: absolute;
+    border: solid 2px white  ;
+    bottom: -5px;
+    left: 10px;
+    width: 500px;
+}
+.section-1 .all h1::after {
+    content: " ";
+    position: absolute;
+    border: solid 2px white  ;
+    bottom: -15px;
+    left: 10px;
+    width: 500px;
+}
+
+
+   /*                                                    end             section-1                     */
+
+
+
+    /*                                                  start             section-2                     */
+
+.section-2 {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.section-2 h1 {
+    font-size: 45px;
+    color: #0d5257;
+    padding-left: 20px;
+}
+.section-2 p {
+    font-size: 30px;
+    color: #b9a2a2;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/*                                                                  start section 3 */
+
+.section-3 {
+    width: 100%;
+    height: 60vh ;
+    margin-top: 20px;
+}
+
+.section-3 .all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+.section-3 .all .one {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    border: solid 2px black;
+    border-radius: 20px 0 20px 0;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: #090633;
+}
+
+.section-3 .all .one h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.section-3 .all .one p {
+margin: 20px;
+color: #b9a2a2;
+margin-left: 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.section-3 .all .one button {
+border-radius: 20px;
+background-color: #0d5257;
+color: white;
+width: fit-content;
+padding: 10px;
+margin-left: 20px;
+margin-top: 44px;
+cursor: pointer;
+outline: none;
+border: none;
+}
+
+.section-3 .all .two button {
+margin-top: 65px; 
+
+}
+.section-3 .all .Advisory button {
+    margin-top: 66px;
+}
+/*                                                                    end section 3 */
+/*                                                                  start section 4 */
+
+.section-4{
+    width:100% ;
+    height:500px;
+}
+
+.section-4 .all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.section-4 .par-1 {
+    /* width: 100%; */
+    display: flex ;
+    flex-direction: row;
+    /* padding: 5px; */
+    padding-left: 40px;
+    /* margin-left: 40px; */
+    font-size: 30px;
+    color: #4eaf8e;
+}
+
+
+
+.section-4 .all .one {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 0 10px;
+}
+
+.section-4 .all .one .image {
+    width:400px ;
+    height: 200px;
+    border-radius: 20px 0 20px 0;
+    transition: 1s;
+    background-image: url(1314530.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    border: solid 1px white;
+    outline: solid 1px white;
+    /* position: center; */
+    
+}
+
+.section-4 .all .one .image:hover {
+    border-radius: 0;
+    background-size: 120%;
+    transition: 1s;
+    /* background-size: cover; */
+    
+} 
+
+
+.section-4 .all .one .paragraph {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    /* padding: 5px; */
+    font-size: 20px;
+    color: #4eaf8e;
+    margin-top: 10px;
+}
+.section-4 .all .one .paragraph .two {
+    padding-left: 15px;
+}
+
+.section-4 .all .one h4 {
+    font-size: 25px;
+    color: purple;
+    margin-top: 2px;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.section-4 .all .one .p-three {
+/* padding: 5px; */
+font-size: 20px;
+color: rgb(100, 91, 91);
+width: 100%;
+margin-top: 10px;
+margin-top: 10px;
+} 
+
+.section-4 .all .three {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 .all .three .one-1 {
+    color: black;
+    font-size: 20px;
+    
+}
+.section-4 .all .three input {
+    width:100% ;
+    height: 50px;
+    border :none;
+    outline: solid 2px #14df9b;
+    border-radius: 5px;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.section-4 .all .three .two-2 {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(204, 195, 195);
+    border-radius: 10px;
+    color: rgb(97, 92, 92) ;
+    margin-top: 10px;
+    
+}
+.section-4 .all .three .two-2:hover {
+    background-color: purple;
+    color: whitesmoke;
+}
+.section-4 .all .three div  {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.section-4 .all .three div .two-3 {
+    margin-left: 5px;
+
+}
+
+.section-4 .all .three button {
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #090633;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+
+}
+
+.section-4 .all .three .choose {
+    background-color: white;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: black;
+
+}
+.section-4 .all .three .choose:hover {
+    background-color: white;
+    color: black;
+}
+/*                                                                    end section 4 */
+
